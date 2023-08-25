@@ -5,14 +5,7 @@ import { ComponentCard } from '../../components'
 export function List() {
   return (
     <S.Section>
-      {dados.map(item => (
-        <ComponentCard
-          key={item.id}
-          data={item.data}
-          mensagem={item.mensagem}
-          titulo={item.titulo}
-        />
-      ))}
+      
     </S.Section>
   )
 }
